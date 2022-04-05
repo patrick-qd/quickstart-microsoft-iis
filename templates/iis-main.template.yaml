@@ -360,20 +360,20 @@ Parameters:
   QSS3BucketName:
     AllowedPattern: ^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$
     ConstraintDescription: Can include numbers, lowercase letters, uppercase letters, and hyphens (-). However, it cannot start or end with a hyphen (-).
-    Default: qd-iss-quickstart
+    Default: aws-quickstart
     Description: S3 bucket name for the Quick Start assets. This name
       can include numbers, lowercase letters, uppercase letters, and hyphens (-).
       It cannot start or end with a hyphen (-).
     Type: String
   QSS3BucketRegion:
-    Default: eu-west-2
+    Default: us-east-1
     Description: AWS Region where the Quick Start S3 bucket (QSS3BucketName) is hosted. Specify this value when using your own S3 bucket.
     Type: String
   QSS3KeyPrefix:
     AllowedPattern: ^[0-9a-zA-Z-/]*$
     ConstraintDescription: Can include numbers, lowercase letters,
       uppercase letters, hyphens (-), and forward slashes (/).
-    Default: /
+    Default: quickstart-microsoft-iis/
     Description: S3 key prefix for the Quick Start assets. This prefix
       can include numbers, lowercase letters, uppercase letters, hyphens (-), and
       forward slashes (/).
