@@ -57,9 +57,9 @@ Parameters:
     Type: String
   ImageId:
     Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
-    Default: /aws/service/ami-windows-latest/Windows_Server-2019-English-Core-Base
-    Description: 'Enter an AMI Id. The default value is Windows Server 2019 Core:
-      /aws/service/ami-windows-latest/Windows_Server-2019-English-Core-Base.'
+    Default: /aws/service/ami-windows-latest/Windows_Server-2022-English-Full-Base
+    Description: 'Enter an AMI Id. The default value is Windows Server 2022 Full Base:
+      /aws/service/ami-windows-latest/Windows_Server-2022-English-Full-Base.'
   IISServerInstanceType:
     AllowedValues:
       - t2.large
